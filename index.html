@@ -19,7 +19,7 @@ body {
 
   header { width: 100%; margin: 0; margin-left: 0;
             background-color: rgb(170, 121, 65);
-            padding: 15px 50px 15px 25px; }
+            padding: 15px 50px 15px 25px; z-index: 3; position: relative;}
   header .content { width: 1000px; }
   header .content p { font-size: 40px; color: #000; font-family: Lucida Handwriting, Brush Script MT, cursive;}
 
@@ -96,6 +96,8 @@ ul li.checked::before {
   padding: 30px 40px;
   color: white;
   text-align: center;
+  z-index: 3; 
+  position: relative;
 }
 
 .header:after {
